@@ -27,3 +27,11 @@ onTimeData$ORIGIN <- as.factor(onTimeData$ORIGIN)
 onTimeData$DAY_OF_WEEK <- as.factor(onTimeData$DAY_OF_WEEK)
 onTimeData$DEP_TIME_BLK <- as.factor(onTimeData$DEP_TIME_BLK)
 onTimeData$CARRIER <- as.factor(onTimeData$CARRIER)
+onTimeData$DEP_TIME_BLK <- as.character(onTimeData$DEP_TIME_BLK)
+tapply(onTimeData$ARR_DEL15, onTimeData$ARR_DEL15, length)
+(6460 / (25664 + 6460))
+6460 / 25664 
+
+
+
+
